@@ -4,9 +4,9 @@ services:
     build: .
     restart: unless-stopped
     volumes:
-      - config:/bot/config
+      - config-tg-support:/bot/config
     ports:
       - 8080
 
 volumes:
-  config:
+  config-tg-support:
